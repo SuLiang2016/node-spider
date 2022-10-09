@@ -1,0 +1,23 @@
+{
+  "name": "spider-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --delay 2.5 src/index.js",
+    "build": "node src/index.js"
+  },
+  "keywords": [
+    "spider"
+  ],
+  "author": "SuLiang",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "fs-extra": "^10.0.1",
+    "nodemon": "^2.0.15",
+    "superagent": "^7.1.1"
+  }
+}
