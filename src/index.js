@@ -5,7 +5,7 @@
  * @LastModifiedBy: suLiang
  * @LastEditTime: 2022-10-08 00:16:47
  */
-const express = require('express')
+// const express = require('express')
 
 // const spider = require('./spider');
 const spiderAsync = require('./spider-async');
@@ -13,8 +13,8 @@ const spiderAsync = require('./spider-async');
 // spider();
 spiderAsync();
 
-const app = express()
-const port = 3001
+// const app = express()
+// const port = 3001
 
-app.get('/', (req, res) => res.send('Hello World1!444'))
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+// app.get('/', (req, res) => res.send('Hello World1!444'))
+// app.listen(port, () => console.log(`Example app listening on port ${port}!`))
